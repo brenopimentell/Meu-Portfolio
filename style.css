@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --blackzinho: #111011;
+    --purple: #c91bc9;
+    --white: #ffffff;
+}
+
+.caixa-principal {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--blackzinho);
+}
+
+.nav-menu {
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.portfolio {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.portfolio span {
+    color: var(--purple);
+}
+
+.texto-principal{
+    color: var(--white);
+}
