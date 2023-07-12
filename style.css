@@ -61,4 +61,52 @@ li:hover {
     color: var(--purple);
 }
 
+section {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 20%;
+    background-color: black;
+    color: var(--white);
+}
+
+section img {
+    height: 200px;
+    border-radius: 100%;
+    border: 2px solid var(--white);
+    margin-right: 80px;
+    margin-left: -20%;
+}
+
+section div h2 {
+    color: var(--white);
+    font-size: 60px;
+}
+
+
+section div p {
+    color: #eea8ee;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+ 
+section div button {
+    color: var(--white);
+    background-color: var(--purple);
+    width: 170px;
+    height: 40px;
+    border-radius: 10px ;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+
+}
+
+section div button:hover {
+    cursor: pointer;
+    background-color: var(--blackzinho);
+    border: 2px solid var(--purple);
+    transition: 0.5s;
+}
 
