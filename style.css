@@ -156,6 +156,7 @@ section div button:hover {
     color: var(--white);
     padding: 10px 20px;
     border-radius: 25px;
+    text-decoration: none;
 }
 
 .card a:hover {
@@ -170,4 +171,37 @@ section div button:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+}
+
+footer {
+    background-color: #000000;
+    padding-top: 100px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h5 {
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 400;
+    
+}
+
+footer p {
+    color: var(--white);
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.rede-social a {
+    padding: 15px;
+    background-color: var(--purple);
+    border-radius: 50%;
+}
+
+.rede-social img {
+    height: 25px;
 }
