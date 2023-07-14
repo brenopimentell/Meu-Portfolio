@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root {
     --blackzinho: #111011;
     --purple: #c91bc9;
@@ -46,10 +50,18 @@ li {
     cursor: pointer;
 }
 
-li:hover {
+
+.link-menu {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+}
+
+.link-menu:hover {
     color: var(--purple);
     transition: 0.5s;
 }
+
 
 .texto-principal{
     color: var(--white);
@@ -69,6 +81,7 @@ section {
     padding: 100px 20%;
     background-color: black;
     color: var(--white);
+    height: 100vh;
 }
 
 section img {
@@ -116,6 +129,7 @@ section div button:hover {
 
 .parte-tres {
     background-color: var(--blackzinho);
+    height: 100vh;
 }
 
 .parte-tres h2{
@@ -193,15 +207,31 @@ footer h5 {
 footer p {
     color: var(--white);
     font-size: 15px;
+    margin-top: 2 px;
     margin-bottom: 20px;
 }
 
+.rede-social {
+    display: flex;
+    gap: 20px;
+}
+
 .rede-social a {
-    padding: 15px;
-    background-color: var(--purple);
+    background-color: var(--blackzinho);
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
 }
 
 .rede-social img {
-    height: 25px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.rede-social img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
