@@ -41,6 +41,10 @@ html {
     color: var(--purple);
 }
 
+ul {
+    margin-right: -27rem;
+}
+
 
 li {
     list-style: none;   
@@ -62,6 +66,25 @@ li {
     transition: 0.5s;
 }
 
+
+.menu-barra .barra {
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--white);
+    margin: 5px 20px;
+    transition: all 0.5s;
+}
+
+.menu-barra:hover {
+    cursor: pointer;
+}
+
+.menu-barra .barra:nth-child(1),
+.menu-barra .barra:nth-child(3) {
+    background: var(--purple);
+}
 
 .texto-principal{
     color: var(--white);
@@ -161,8 +184,7 @@ section div button:hover {
 
 .card p {
     color:  #eea8ee;
-    margin-top: 25px;
-    margin-bottom: 50px;
+    margin: 30px -17px;
 }
 
 .card a {
@@ -185,6 +207,11 @@ section div button:hover {
     display: flex;
     justify-content: space-around;
     margin-top: 70px;
+}
+
+#sobre a{
+    text-decoration: none;
+    color: var(--white);
 }
 
 footer {
