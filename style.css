@@ -41,10 +41,6 @@ html {
     color: var(--purple);
 }
 
-ul {
-    margin-right: -27rem;
-}
-
 
 li {
     list-style: none;   
