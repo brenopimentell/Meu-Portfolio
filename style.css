@@ -224,7 +224,6 @@ footer h5 {
     color: var(--white);
     font-size: 30px;
     font-weight: 400;
-    
 }
 
 footer p {
@@ -259,3 +258,18 @@ footer p {
     transition: 0.5s;
 }
 
+
+@media (max-width: 735px) {
+    .nav-menu ul {
+        opacity: 0;
+        transition: 0.2s;
+    }
+
+    .nav-menu {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+    }
+}
