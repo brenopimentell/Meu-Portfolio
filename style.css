@@ -62,31 +62,11 @@ li {
     transition: 0.5s;
 }
 
-
-.menu-barra .barra {
-    display: block;
-    width: 28px;
-    height: 3px;
-    border-radius: 3px;
-    background: var(--white);
-    margin: 5px 20px;
-    transition: all 0.5s;
-}
-
-.menu-barra:hover {
-    cursor: pointer;
-}
-
-.menu-barra .barra:nth-child(1),
-.menu-barra .barra:nth-child(3) {
-    background: var(--purple);
-}
-
 .texto-principal{
     color: var(--white);
     position: absolute;
     top: 50%;
-    left: 8%;
+    left: 10%;
 }
 
 .texto-principal h1 span {
@@ -104,7 +84,7 @@ section {
 }
 
 section img {
-    height: 200px;
+    height:60%;
     border-radius: 100%;
     border: 2px solid var(--white);
     margin-right: 80px;
@@ -259,17 +239,65 @@ footer p {
 }
 
 
+
 @media (max-width: 735px) {
+
     .nav-menu ul {
         opacity: 0;
         transition: 0.2s;
     }
 
     .nav-menu {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    transition: 0.2s;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        transition: 0.2s;
     }
+
+    .texto-principal {
+     position: absolute;
+     left: 25%;
+     font-size: 15px;
+    }
+
+    .texto-principal h1 span {
+        color: var(--white);
+    }
+
+    .texto-principal h3 {
+        position: absolute;
+        left: 4%;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    section .section-img {
+        display: block;
+        margin: 0px auto;
+        width: 70%;
+        
+    }
+
+    .section h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .section-text {
+        margin-top: 81px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;        
+    }
+
+    .section p {
+        font-size: 15px;
+    }
+
+
+
 }
