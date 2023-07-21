@@ -194,8 +194,9 @@ section div button:hover {
 
 footer {
     background-color: #000000;
-    padding-top: 100px;
-    padding-bottom: 120px;
+   
+    padding-top: 200px;
+    padding-bottom: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -253,8 +254,9 @@ footer p {
         display: flex;
         text-align: center;
         justify-content: center;
-        margin: -24px -12px;
+    
     }
+
 
     .nav-menu li {
         margin: 9px 15px;
@@ -369,6 +371,14 @@ footer p {
     .card a {
         padding: 5px 15px;
         font-size: 13px;
+    }
+
+    footer h5 {
+        font-size: 23px;
+    }
+
+    footer p {
+        font-size: 12px;
     }
 }
 
