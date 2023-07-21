@@ -88,19 +88,20 @@ section img {
     height:60%;
     border-radius: 100%;
     border: 2px solid var(--white);
-    margin-right: 80px;
+    margin-right: 100px;
     margin-left: -20%;
 }
 
 section div h2 {
     color: var(--white);
-    font-size: 60px;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 
 section div p {
     color: #eea8ee;
-    font-size: 22px;
+    font-size: 19px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -249,8 +250,15 @@ footer p {
     }
 
     .nav-menu ul {
-        opacity: 0;
-        transition: 0.2s;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: -24px -12px;
+    }
+
+    .nav-menu li {
+        margin: 9px 15px;
+        font-size: 14px;
     }
 
     .nav-menu {
@@ -354,12 +362,12 @@ footer p {
     }
 
     .card p {
-        opacity: 0;
+        color: transparent;
         margin: -10px
     }
 
     .card a {
-        padding: 5px 5px;
+        padding: 5px 15px;
         font-size: 13px;
     }
 }
