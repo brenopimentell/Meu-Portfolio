@@ -296,8 +296,7 @@ footer p {
     section .section-img {
         display: block;
         margin: 0px auto;
-        width: 55%;
-        height: auto;
+        width: 55% 50%;
         margin-top: -20%;
         
     }
