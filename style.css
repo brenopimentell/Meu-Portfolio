@@ -276,12 +276,12 @@ footer p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        top: 35%;
-        left: 20%;
+        top: 50%;
+        left: 30%;
     }
 
     .texto-principal h1 span {
-        color: var(--white);
+        color: var(--purple);
     }
 
     .texto-principal h3 {
@@ -296,7 +296,8 @@ footer p {
     section .section-img {
         display: block;
         margin: 0px auto;
-        width: 70%;
+        width: 200px;
+        
         
     }
 
@@ -306,7 +307,7 @@ footer p {
     }
 
     .section-text {
-        margin-top: 81px;
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
         align-items: center;
